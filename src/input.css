@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply font-mono 
+}
+
+body {
+    @apply m-0 p-0 text-black bg-white
+}
+
+body::-webkit-scrollbar {
+    @apply w-2 
+}
+
+body::-webkit-scrollbar-track {
+    @apply bg-gray-900
+}
+
+body::-webkit-scrollbar-thumb {
+    @apply bg-purple-900
+}
+
+ul {
+    @apply h-full
+}
+
+ul > li {
+    @apply w-full
+}
+
+ul > li:last-child {
+    @apply mt-auto
+}
