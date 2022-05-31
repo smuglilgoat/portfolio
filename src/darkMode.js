@@ -11,8 +11,6 @@ const enableDarkMode = () => {
   localStorage.setItem('darkMode', 'enabled');
 
   darkModeToggle.innerHTML = "🌞";
-  darkModeToggle.classList.add("bg-orange-400", "hover:bg-orange-200");
-  darkModeToggle.classList.remove("bg-gray-900", "hover:bg-gray-600");
 }
 
 const disableDarkMode = () => {
@@ -22,8 +20,6 @@ const disableDarkMode = () => {
   localStorage.setItem('darkMode', null);
 
   darkModeToggle.innerHTML = "🌚";
-  darkModeToggle.classList.add("bg-gray-900", "hover:bg-gray-600");
-  darkModeToggle.classList.remove("bg-orange-400", "hover:bg-orange-200");
 }
  
 // If the user already visited and enabled darkMode
