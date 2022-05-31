@@ -10,7 +10,7 @@ const enableDarkMode = () => {
   // 2. Update darkMode in localStorage
   localStorage.setItem('darkMode', 'enabled');
 
-  darkModeToggle.innerHTML = "🌞";
+  darkModeToggle.innerHTML = "<img src=\"src/sun-with-face_1f31e.png\" class=\"w-5 h-5\">";
 }
 
 const disableDarkMode = () => {
@@ -19,7 +19,7 @@ const disableDarkMode = () => {
   // 2. Update darkMode in localStorage 
   localStorage.setItem('darkMode', null);
 
-  darkModeToggle.innerHTML = "🌚";
+  darkModeToggle.innerHTML = "<img src=\"src/first-quarter-moon-with-face_1f31b.png\" class=\"w-5 h-5\">";
 }
  
 // If the user already visited and enabled darkMode
