@@ -8,7 +8,7 @@ const switchFrench = () => {
   localStorage.setItem("lang", "fr");
 
   // Update the language toggle button
-  langToggle.innerHTML = '<img src="src/us.png" class="w-5 h-5">';
+  langToggle.innerHTML = '<img src="src/us.webp" class="w-5 h-5">';
   langToggle.classList.remove("bg-blue-700", "hover:bg-blue-400");
   langToggle.classList.add("bg-white", "hover:bg-gray-200");
 
@@ -42,7 +42,7 @@ const switchEnglish = () => {
   localStorage.setItem("lang", "en");
 
   // Update the language toggle button
-  langToggle.innerHTML = '<img src="src/fr.png" class="w-5 h-5">';
+  langToggle.innerHTML = '<img src="src/fr.webp" class="w-5 h-5">';
   langToggle.classList.remove("bg-white", "hover:bg-gray-200");
   langToggle.classList.add("bg-blue-700", "hover:bg-blue-400");
 
