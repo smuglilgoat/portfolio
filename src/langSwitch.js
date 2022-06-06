@@ -51,7 +51,7 @@ const switchEnglish = () => {
   document.getElementById("contact-link").innerHTML = "Contacts";
 
   // Change the language of the title to english
-  document.getElementById("job-title").innerHTML = "Développeur Full Stack";
+  document.getElementById("job-title").innerHTML = "Full-Stack Developper";
 
   // Change the language of the about me section to english
   document.getElementById("about-me-title").innerHTML = "About me";
