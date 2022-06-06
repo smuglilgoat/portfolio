@@ -878,9 +878,24 @@ section {
   background-color: rgb(36 41 47 / var(--tw-bg-opacity));
 }
 
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#4285F4\] {
   --tw-bg-opacity: 1;
   background-color: rgb(66 133 244 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0072b1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 114 177 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1070,6 +1085,10 @@ section {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.bgcolor{
+  background-color: #0072b1
+}
+
 .hover\:bg-gray-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
@@ -1096,6 +1115,15 @@ section {
 
 .hover\:bg-\[\#24292F\]\/90:hover {
   background-color: rgb(36 41 47 / 0.9);
+}
+
+.hover\:bg-\[\#008fdd\]\/90:hover {
+  background-color: rgb(0 143 221 / 0.9);
+}
+
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#4285F4\]\/90:hover {
@@ -1370,4 +1398,3 @@ section {
     height: 24rem;
   }
 }
-

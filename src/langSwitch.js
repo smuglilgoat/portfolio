@@ -47,7 +47,7 @@ const switchEnglish = () => {
   langToggle.classList.add("bg-blue-700", "hover:bg-blue-400");
 
   // Change the language of the navbar links
-  document.getElementById("works-link").innerHTML = "Projets";
+  document.getElementById("works-link").innerHTML = "Works";
   document.getElementById("contact-link").innerHTML = "Contacts";
 
   // Change the language of the title to english

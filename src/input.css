@@ -27,8 +27,7 @@
         mb-2
     }
   }
-
-  @layer utilities {
-   
-  }
-
+  
+.bgcolor{
+    background-color: #0072b1
+}
